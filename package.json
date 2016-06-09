@@ -1,0 +1,35 @@
+{
+  "name": "hilbert-geohash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.go",
+  "dependencies": {
+    "alertify.js": "^1.0.11",
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.2",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-0": "^6.3.13",
+    "bluebird": "^3.4.0",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "google-maps": "^3.1.0",
+    "style-loader": "^0.13.0",
+    "superagent": "^2.0.0",
+    "webpack": "^1.13.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiborv/hilbert-geohash.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiborv/hilbert-geohash/issues"
+  },
+  "homepage": "https://github.com/tiborv/hilbert-geohash#readme"
+}

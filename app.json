@@ -1,0 +1,22 @@
+{
+  "name": "Hilbert-Geohash",
+  "keywords": [
+    "go",
+    "webpack",
+    "gin"
+  ],
+  "repository": "https://github.com/tiborv/hilbert-geohash.git",
+  "env": {
+    "GIN_MODE": {
+      "value": "release"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-go"
+    },
+    {
+      	"url": "https://github.com/heroku/heroku-buildpack-nodejs"
+    }
+  ]
+}

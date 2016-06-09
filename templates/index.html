@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta charset="utf-8">
+  <title>{{.title}}</title>
+  <link rel="stylesheet" href="/static/main.css" />
+</head>
+
+<body>
+  <div id="map"></div>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div><b>Enter a hash: </b><input id="hashInput" type="text" style="width:100%"></input></div>
+        <div><b>Enter a point - Lat,Lng (and press Enter): </b><input id="pointInput" type="text" style="width:100%"></input></div>
+      </div>
+      <div class="row">
+        <div><b>Hilbert-Hash url: </b><a id="hash"></a></div>
+        <div><b>Lat,Lng url: </b><a id="point"></a></div>
+        <div>Show hash path<input type="checkbox" id="pathButton"></input></div>
+      </div>
+  </section>
+
+  <script src="/static/bundle.js"></script>
+</body>
+
+</html>
