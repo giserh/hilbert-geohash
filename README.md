@@ -1,5 +1,7 @@
 # Hilbert-Geohash [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tiborv/hilbert-geohash.svg)](https://greenkeeper.io/)
+
 ### Dependencies:
 + npm
 + webpack
